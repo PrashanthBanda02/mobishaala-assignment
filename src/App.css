@@ -1,38 +1,103 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  height: auto;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-image: url('https://img.freepik.com/free-photo/green-dirty-blackboard_125540-774.jpg?w=900&t=st=1710443798~exp=1710444398~hmac=e25369673d960a3dc7babcd3fe3ac1341953132cd7b4ef03a2cbf2dfadae8833');
   color: white;
+
+  
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.left-section{
+  display: flex;
+  flex-direction: column;
+}
+.main-container{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+.main-heading{
+  font-size: 60px;
+  font-style: italic;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+.description{
+  font-size: 20px;
+  font-weight: 600;
+}
+.description span{
+  color: yellow;
+}
+.pre-requisites-container{
+  list-style: circle;
+ 
+  padding-left: 20px;
+}
+.get-started-btn{
+  background-color: #C91F37;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  width: 150px;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.download-app-btn{
+  background-color: #C91F37;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  width: 150px;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.talk-to-us-btn{
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  width: 150px;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+}
+.Buy-btn{
+  background-color: #C91F37;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  width: 100px;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  margin-top: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.whatsapp-icon{
+  height: 20px;
+  width: 20px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
