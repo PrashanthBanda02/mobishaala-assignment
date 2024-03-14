@@ -9,20 +9,19 @@
   background-size: cover;
   background-image: url('https://img.freepik.com/free-photo/green-dirty-blackboard_125540-774.jpg?w=900&t=st=1710443798~exp=1710444398~hmac=e25369673d960a3dc7babcd3fe3ac1341953132cd7b4ef03a2cbf2dfadae8833');
   color: white;
-
-  
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.left-section{
-  display: flex;
-  flex-direction: column;
-}
+
 .main-container{
   width: 90%;
   display: flex;
   justify-content: space-between;
   padding: 0px;
+}
+.left-section{
+  display: flex;
+  flex-direction: column;
 }
 .main-heading{
   font-size: 60px;
@@ -100,4 +99,35 @@
   width: 20px;
 
 }
+.mobile-section{
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .App {
+    height: auto;
+  }
+  .mobile-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
+  .Large-device-section{
+    display: none;
+  }
+  .left-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+}
+
 

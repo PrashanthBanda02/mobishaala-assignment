@@ -14,6 +14,21 @@ const App = () => (
           <li className='pre-requisite'>Quick setup live classes, notes, ebooks and more.</li>
           <li className='pre-requisite'>Reach out to millions of students anywhere, anytime.</li>
         </ul>
+        <div className='mobile-section'>
+        <iframe 
+          width="400" 
+          height="220" 
+          src="https://www.youtube.com/embed/jg5d59ligW4" 
+          title="YouTube video player" 
+          frameBorder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowFullScreen
+          style={{ border: '0px', borderRadius: '10px' }} 
+        ></iframe>
+        <button type='button' className='Buy-btn'>
+          Buy
+        </button>
+      </div>
         <h4>Institute/Teacher</h4>
         <button type='button' className='get-started-btn'>
           Get Started
@@ -27,7 +42,7 @@ const App = () => (
           Talk to us
         </button>
       </div>
-      <div className='right-section'>
+      <div className='Large-device-section'>
         <iframe 
           width="400" 
           height="220" 
