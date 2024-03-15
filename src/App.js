@@ -16,7 +16,7 @@ const App = () => (
         </ul>
         <div className='mobile-section'>
         <iframe 
-          width="400" 
+          width="300" 
           height="220" 
           src="https://www.youtube.com/embed/jg5d59ligW4" 
           title="YouTube video player" 
@@ -44,8 +44,9 @@ const App = () => (
       </div>
       <div className='Large-device-section'>
         <iframe 
+          className='small-device-player'
           width="400" 
-          height="220" 
+          height="200" 
           src="https://www.youtube.com/embed/jg5d59ligW4" 
           title="YouTube video player" 
           frameBorder="0" 
@@ -56,6 +57,22 @@ const App = () => (
         <button type='button' className='Buy-btn'>
           Buy
         </button>
+      </div>
+    </div>
+    <div className='footer'>
+      <div className='footer-content'>
+        <h1>Mobishaala</h1>
+        <h3>Vision</h3>
+        <p>Empower Institutions & Teachers with state of the art digital 
+          Classroom technology.
+        </p>
+        <h3>Address</h3>
+        <p><span>Registered Office : </span>804.5th Cross, 9th main, 4th Block Koramangala, Bangalore, Karnataka 560034</p>
+        <p><span>Corporate Office : </span>293, Westend Marg, near Saket, Saidulajab, Saket, New Delhi, 110030</p>
+        <h3>Quick links </h3>
+        <p>Blogs</p>
+        <p>Android App</p>
+        <p>IOS App</p>
       </div>
     </div>
   </div>
